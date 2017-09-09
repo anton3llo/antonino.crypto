@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CP-ABEAndroidCryptoTest</string>
+    <string name="authority">Authority</string>
+    <string name="user">Utente</string>
+    <string name="contents">Contents</string>
+    <string name="authorities">Authorities</string>
+    <string name="users">Users</string>
+    <string name="seleziona_authority">Seleziona Authority</string>
+    <string name="seleziona_utente">Seleziona Utente</string>
+    <string name="richiedi_attributi">Richiedi \n Attributi</string>
+    <string name="crea_attributi">Crea Attributi</string>
+    <string name="rilascia_attributi">Rilascia Attributi</string>
+    <string name="amministra_authority">Amministra Authority</string>
+    <string name="creare_athority">Creare Authority</string>
+    <string name="creare_utente">Creare Utente</string>
+    <string name="cifra">Cifra</string>
+    <string name="decifra">Decifra</string>
+    <string name="quit">Quit</string>
+    <string name="really_quit">Si desidera chiudere l\' app \?</string>
+    <string name="yes">Conferma</string>
+    <string name="no">Annulla</string>
+    <string name="Enter">Enter</string>
+    <string name="scegliere_attributi">Selezionare gli attributi per la policy</string>
+    <string name="cifrare">Inserire il testo da cifrare</string>
+</resources>

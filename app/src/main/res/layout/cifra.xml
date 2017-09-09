@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/richiedi_attributi"
+        android:text="@string/richiedi_attributi"
+        android:layout_toLeftOf="@+id/cifra"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cifra"
+        android:text="@string/cifra"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/decifra"
+        android:text="@string/decifra"
+        android:layout_toRightOf="@+id/cifra"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lista_attributi"
+        android:visibility="invisible"
+        android:layout_below="@+id/richiedi_attributi">
+    </ListView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:visibility="invisible"
+        android:layout_below="@+id/cifra"
+        android:layout_centerHorizontal="true"
+        android:text="@string/scegliere_attributi"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lista_attributi"
+        android:text="@string/Enter"
+        android:visibility="invisible"
+        android:id="@+id/enter_4"/>
+</RelativeLayout>

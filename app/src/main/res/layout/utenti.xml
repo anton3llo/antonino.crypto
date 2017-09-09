@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seleziona_utente_2"
+        android:text="@string/seleziona_utente"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nuovo_utente"
+        android:text="@string/creare_utente"
+        android:layout_toRightOf="@+id/seleziona_utente_2"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lista_utenti"
+        android:visibility="invisible"
+        android:layout_below="@+id/seleziona_utente_2">
+    </ListView>
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/inserisci_nuovo_utente"
+        android:visibility="invisible"
+        android:layout_below="@+id/seleziona_utente_2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="@string/Enter"
+        android:id="@+id/enter_3"
+        android:layout_below="@+id/seleziona_utente_2"
+        android:layout_toRightOf="@+id/inserisci_nuovo_utente"/>
+</RelativeLayout>

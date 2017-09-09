@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/amministra_authority"
+        android:text="@string/amministra_authority"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/crea_nuova_auth"
+        android:layout_toRightOf="@+id/amministra_authority"
+        android:text="@string/creare_athority"/>
+    <EditText
+        android:id="@+id/inserisci_auth"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:inputType="text"
+        android:visibility="invisible"
+        android:layout_below="@+id/crea_nuova_auth"/>
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/crea_nuova_auth"
+        android:layout_toRightOf="@+id/inserisci_auth"
+        android:text="@string/Enter"
+        android:visibility="invisible"/>
+    <ListView
+        android:id="@+id/lista_authorities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amministra_authority"
+        android:visibility="invisible">
+    </ListView>
+</RelativeLayout>

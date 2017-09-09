@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rel_layout">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/combina_attributi"
+        android:text="@string/cifrare"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/inserisci_testo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/combina_attributi"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/enter_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Enter"
+        android:layout_below="@+id/inserisci_testo"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

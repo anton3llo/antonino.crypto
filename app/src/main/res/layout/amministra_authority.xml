@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/creare_attributi"
+        android:text="@string/crea_attributi"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rilascio"
+        android:text="@string/rilascia_attributi"
+        android:layout_toRightOf="@+id/creare_attributi"/>
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:id="@+id/inserisci_attributi"
+        android:visibility="invisible"
+        android:layout_below="@+id/creare_attributi"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enter_2"
+        android:visibility="invisible"
+        android:text="@string/Enter"
+        android:layout_below="@+id/creare_attributi"
+        android:layout_toRightOf="@+id/inserisci_attributi"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/lista_attributi_richiesti"
+        android:layout_below="@+id/creare_attributi">
+    </ListView>
+</RelativeLayout>
